@@ -117,6 +117,8 @@ add_action( 'widgets_init', 'bm_starter_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bm_starter_scripts() {
+	wp_enqueue_style('bm-starter-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif|Source+Sans+Pro:400,400i,700,900" rel="stylesheet');
+
 	wp_enqueue_style( 'bm_starter-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'bm_starter-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
