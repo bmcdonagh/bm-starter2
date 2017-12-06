@@ -1,4 +1,4 @@
-var themename = 'bm-starter';
+var themename = 'twentyseventeen-child';
 
 var gulp = require('gulp'),
     // Prepare and optimize code etc
@@ -70,3 +70,4 @@ gulp.task('watch', function() {
 
 // Default task (runs at initiation: gulp --verbose)
 gulp.task('default', ['watch']);
+
